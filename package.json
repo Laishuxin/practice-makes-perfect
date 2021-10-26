@@ -1,0 +1,39 @@
+{
+  "name": "practice-makes-perfect",
+  "version": "0.0.0",
+  "scripts": {
+    "coverage": "jest --coverage",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "yarn coverage",
+    "format": "prettier --write .",
+    "lint": "eslint --fix --ext .js --ext .jsx --ext .vue src/",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/parser": "^5.2.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": ">=10",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,js,jsx}": [
+      "yarn lint"
+    ],
+    "*.{css,md,json}": "yarn prettier --write ."
+  },
+  "husky": {
+    "hooks": {}
+  }
+}
