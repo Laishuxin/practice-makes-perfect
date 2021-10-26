@@ -48,8 +48,8 @@ describe.only()
 - [ ] : 手写 `bind` 函数
 - [ ] : 实现浅拷贝
 - [ ] : 实现深拷贝
-- [ ] : (options - react) 实现浅比较(`shallowEqual`)。
-- [ ] : (options - vue) 实现深比较(`looseEqual`)
+- [ ] : (option - react) 实现浅比较(`shallowEqual`)。
+- [ ] : (option - vue) 实现深比较(`looseEqual`)
 
 ### 数据处理
 
@@ -76,7 +76,7 @@ describe.only()
 - [ ] : 手写 Promise.then
 - [ ] : 手写 Promise.all
 - [ ] : 手写 Promise.race
-- [ ] : (options) 手写 Promise A+
+- [ ] : (option) 手写 Promise A+
 
 ### 网络请求
 
@@ -91,20 +91,26 @@ describe.only()
 - [ ] : 实现柯里化 `curry`
 - [ ] : 实现偏函数 `partial`
 - [ ] : 实现 `compose` (`redux`)
-- [ ] : 实现 `pipeline` (`redux`)
+- [ ] : 实现 `pipeline`
 
 ### 场景应用
 
 - [ ] : 循环打印红绿灯（2 种以上的实现方式）
+- [ ] : 实现图片懒加载
+  - [ ] : `IntersectionObserver`
+  - [ ] : 根据滑动位置实现
+- [ ] : 实现图片预加载
+- [ ] : 实现时间切片
+- [ ] : 实现虚链表
 - [ ] : 用 `Promise` 实现图片的异步加载
-- [ ] : 实现观察者模式
-- [ ] : 实现 `EventBus`
 - [ ] : 查找文章种出现频率最高的单词
 - [ ] : 实现数据的双向绑定
 - [ ] : 实现带缓存的 `fibonacci` 函数
 - [ ] : 使用 `setTimeout` 实现 `setInterval`
 - [ ] : 判断对象是否出现循环引用
 - [ ] : 实现 `jsonp`
+- [ ] : 实现观察者模式
+- [ ] : 实现 `EventBus`
 
 ### utils
 
@@ -134,6 +140,10 @@ describe.only()
 - [ ] : (option - react) 实现一个 `React Router`
 
 ## 数据结构与算法
+
+### 算法
+
+- [ ] : 实现一个 LRU 算法。
 
 ## Reference
 
