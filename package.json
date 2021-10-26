@@ -1,22 +1,29 @@
 {
   "name": "practice-makes-perfect",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "coverage": "jest --coverage",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "yarn coverage",
     "format": "prettier --write .",
-    "lint": "eslint --fix --ext .js --ext .jsx --ext .vue src/",
+    "lint": "eslint --fix --ext .js --ext .jsx",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@babel/preset-env": "^7.15.8",
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",
     "@typescript-eslint/parser": "^5.2.0",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.3.1",
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "lint-staged": ">=10",
@@ -31,7 +38,7 @@
     "*.{js,ts,tsx,js,jsx}": [
       "yarn lint"
     ],
-    "*.{css,md,json}": "yarn prettier --write ."
+    "*.{css,md}": "yarn prettier --write ."
   },
   "husky": {
     "hooks": {}
