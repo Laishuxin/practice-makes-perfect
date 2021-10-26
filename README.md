@@ -4,7 +4,7 @@
 
 ### 文件规范
 
-1. 文件名采用 hyphen 命名，也就是小写字母，单词与单词之间用 `-` 分割。
+1. 文件名采用 hyphenate 命名，也就是小写字母，单词与单词之间用 `-` 分割。
 2. 文件名一律采用英文命名。
 
 ### 提交规范
@@ -48,19 +48,17 @@ describe.only()
 - [ ] : 手写 `bind` 函数
 - [ ] : 实现浅拷贝
 - [ ] : 实现深拷贝
-- [ ] : (option - react) 实现浅比较(`shallowEqual`)。
-- [ ] : (option - vue) 实现深比较(`looseEqual`)
+- [ ] : (options - react) 实现浅比较(`shallowEqual`)。
+- [ ] : (options - vue) 实现深比较(`looseEqual`)
 
 ### 数据处理
 
 - [ ] : 实现日期格式化函数
 - [ ] : 交换 a, b 的值，不能使用临时变量
 - [ ] : 实现数组的乱序输出 (`shuffle`)
-- [ ] : 实现数组求和（尽可能多的实现方式）
 - [ ] : 实现数组扁平化 (`flatten`)
 - [ ] : 实现 `Array.flatten`
 - [ ] : 实现 `Array.map`
-- [ ] : 实现 `Array.push`
 - [ ] : 实现 `Array.filter`
 - [ ] : 实现 `Array.repeat`
 - [ ] : 实现 `Array.reverse`
@@ -73,44 +71,38 @@ describe.only()
 
 ### Promise
 
-- [ ] : 手写 Promise.then
-- [ ] : 手写 Promise.all
-- [ ] : 手写 Promise.race
+- [ ] : 手写 `Promise.then`
+- [ ] : 手写 `Promise.all`
+- [ ] : 手写 `Promise.race`
 - [ ] : (option) 手写 Promise A+
 
 ### 网络请求
 
-- [ ] : 实现 `Ajx` 请求
+- [ ] : 实现 `Ajax` 请求
 - [ ] : 用 `Promise` 封装 `Ajax` 请求
 - [ ] : 实现 `Promise` 缓存
-- [ ] : 实现带有缓存失效的 `Promise` 缓存
+- [ ] : 实现带有缓存时效的 `Promise` 缓存
 - [ ] : 封装异步的 `fetch`，使用 `async await` 方式来使用。
 
 ### 函数式编程
 
 - [ ] : 实现柯里化 `curry`
 - [ ] : 实现偏函数 `partial`
-- [ ] : 实现 `compose` (`redux`)
+- [ ] : 实现 `compose` (Redux)
 - [ ] : 实现 `pipeline`
 
 ### 场景应用
 
 - [ ] : 循环打印红绿灯（2 种以上的实现方式）
-- [ ] : 实现图片懒加载
-  - [ ] : `IntersectionObserver`
-  - [ ] : 根据滑动位置实现
-- [ ] : 实现图片预加载
-- [ ] : 实现时间切片
-- [ ] : 实现虚链表
 - [ ] : 用 `Promise` 实现图片的异步加载
+- [ ] : 实现观察者模式
+- [ ] : 实现 `EventBus`
 - [ ] : 查找文章种出现频率最高的单词
 - [ ] : 实现数据的双向绑定
 - [ ] : 实现带缓存的 `fibonacci` 函数
 - [ ] : 使用 `setTimeout` 实现 `setInterval`
 - [ ] : 判断对象是否出现循环引用
 - [ ] : 实现 `jsonp`
-- [ ] : 实现观察者模式
-- [ ] : 实现 `EventBus`
 
 ### utils
 
@@ -121,7 +113,7 @@ describe.only()
 - [ ] : 实现 `toRawType`
 - [ ] : 实现 `cache` (or `memoize`)
 - [ ] : 实现 `camelize`
-- [ ] : 实现 `hyphenate`
+- [ ] : 实现 `hyphenateRE`
 - [ ] : 实现 `extend`
 - [ ] : 实现 `once`
 
@@ -140,10 +132,6 @@ describe.only()
 - [ ] : (option - react) 实现一个 `React Router`
 
 ## 数据结构与算法
-
-### 算法
-
-- [ ] : 实现一个 LRU 算法。
 
 ## Reference
 
