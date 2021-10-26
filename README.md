@@ -4,7 +4,7 @@
 
 ### 文件规范
 
-1. 文件名采用 hyphenate 命名，也就是小写字母，单词与单词之间用 `-` 分割。
+1. 文件名采用 hyphen 命名，也就是小写字母，单词与单词之间用 `-` 分割。
 2. 文件名一律采用英文命名。
 
 ### 提交规范
@@ -80,7 +80,7 @@ describe.only()
 
 ### 网络请求
 
-- [ ] : 实现 `Ajax` 请求
+- [ ] : 实现 `Ajx` 请求
 - [ ] : 用 `Promise` 封装 `Ajax` 请求
 - [ ] : 实现 `Promise` 缓存
 - [ ] : 实现带有缓存失效的 `Promise` 缓存
@@ -121,7 +121,7 @@ describe.only()
 - [ ] : 实现 `toRawType`
 - [ ] : 实现 `cache` (or `memoize`)
 - [ ] : 实现 `camelize`
-- [ ] : 实现 `hyphenateRE`
+- [ ] : 实现 `hyphenate`
 - [ ] : 实现 `extend`
 - [ ] : 实现 `once`
 
