@@ -1,8 +1,6 @@
 export function create(obj) {
-  if (typeof obj !== 'object' && typeof obj !== 'function') {
-    throw new TypeError(
-      'Object prototype may only be an Object or null: ' + obj,
-    )
+  if (typeof obj !== 'function' && typeof obj !== 'object') {
+    throw new TypeError(`expected an object type, but receive ${obj}`)
   }
   if (obj === null) {
     return {}
@@ -11,10 +9,3 @@ export function create(obj) {
   F.prototype = obj
   return new F()
 }
-function main() {
-  const obj = { a: 1 }
-  const result = create(obj)
-  console.log(result.a)
-}
-
-main()
