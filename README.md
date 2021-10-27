@@ -40,18 +40,30 @@ describe.only()
 - [ ] : 手写 `Object.create`。
 - [ ] : 手写 `instanceof` 方法
 - [ ] : 手写 `new` 操作符
-- [ ] : 手写节流函数
-- [ ] : 手写防抖函数
-- [ ] : 手写类型判断函数
 - [ ] : 手写 `call` 函数
 - [ ] : 手写 `apply` 函数
 - [ ] : 手写 `bind` 函数
+- [ ] : 手写节流函数
+  - [ ] : 手写节流函数含 leading 和 trailing
+- [ ] : 手写防抖函数
+  - [ ] : 使用时间戳
+  - [ ] : 使用定时器
+  - [ ] : 使用时间戳 + 定时器
+  - [ ] : 手写防抖数含 leading 和 trailing
+- [ ] : 手写类型判断函数
 - [ ] : 实现浅拷贝
 - [ ] : 实现深拷贝
   - [ ] : 实现深拷贝 - 深度优先
   - [ ] : 实现深拷贝 - 广度优先
 - [ ] : (options - react) 实现浅比较(`shallowEqual`)。
 - [ ] : (options - vue) 实现深比较(`looseEqual`)
+
+可以参考的资料：
+
+- [冴羽的博客](https://github.com/mqyqingfeng/Blog)
+- [「2021」高频前端面试题汇总之手写代码篇](https://juejin.cn/post/6946136940164939813)
+- [shallowEqual](https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/core/shallowEqual.js)
+- [looseEqual](https://github.com/vuejs/vue/blob/dev/src/shared/util.js)
 
 ### 数据处理
 
@@ -70,6 +82,10 @@ describe.only()
 - [ ] : 将数字每千分位用逗号隔开
 - [ ] : 实现 `add(1)(2)(3)`
 - [ ] : 将 URL Params 解析为对象
+
+可以参考的资料：
+
+- [「2021」高频前端面试题汇总之手写代码篇](https://juejin.cn/post/6946136940164939813)
 
 ### Promise
 
@@ -92,6 +108,12 @@ describe.only()
 - [ ] : 实现偏函数 `partial`
 - [ ] : 实现 `compose` (Redux)
 - [ ] : 实现 `pipeline`
+
+可以参考的资料：
+
+- [JavaScript ES6 函数式编程入门经典](https://book.douban.com/subject/30180100/)
+- [lodash](https://github.com/lodash/lodash)
+- [compose](https://github.com/reduxjs/redux/blob/d794c56f78eccb56ba3c67971c26df8ee34dacc1/src/compose.ts)
 
 ### 场景应用
 
@@ -119,6 +141,10 @@ describe.only()
 - [ ] : 实现 `extend`
 - [ ] : 实现 `once`
 
+可以参考的资料：
+
+- [Vue - util](https://github.com/vuejs/vue/blob/dev/src/shared/util.js)
+
 ### 小型 (mini) 框架
 
 - [ ] : 实现一个前端路由
@@ -134,6 +160,10 @@ describe.only()
 - [ ] : (option - react) 实现一个 `React Router`
 - [ ] : 实现一个 diff 算法
 
+- [学习源码整体架构系列](https://juejin.cn/column/6960551178908205093)
+
+- [珠峰全栈架构课](https://space.bilibili.com/9418199/channel/detail?cid=86585)
+
 ## 数据结构与算法
 
 ### 算法
@@ -141,6 +171,10 @@ describe.only()
 #### 前端常见算法
 
 - [ ] : 实现一个 LRU 算法
+
+可以参考的资料：
+
+- [算法就像搭乐高：带你手撸 LRU 算法](https://labuladong.gitee.io/algo/2/18/38/)
 
 #### 剑指 offer
 
