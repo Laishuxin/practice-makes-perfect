@@ -55,8 +55,8 @@ describe.only()
 - [ ] : 实现深拷贝
   - [ ] : 实现深拷贝 - 深度优先
   - [ ] : 实现深拷贝 - 广度优先
-- [ ] : (options - react) 实现浅比较(`shallowEqual`)。
-- [ ] : (options - vue) 实现深比较(`looseEqual`)
+- [ ] : (option - react) 实现浅比较(`shallowEqual`)。
+- [ ] : (option - vue) 实现深比较(`looseEqual`)
 
 可以参考的资料：
 
