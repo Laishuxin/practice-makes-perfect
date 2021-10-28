@@ -1,1 +1,1 @@
-export function shallowCopy() {}
+export function shallowCopy(obj) {}
