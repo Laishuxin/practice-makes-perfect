@@ -176,6 +176,26 @@ describe.only()
 
 - [算法就像搭乐高：带你手撸 LRU 算法](https://labuladong.gitee.io/algo/2/18/38/)
 
+#### 模型分类
+
+##### 二分
+
+- [LeetCode 暑期刷题打卡 2019——Week1 二分专题](https://www.bilibili.com/video/BV1Ft41157zW)
+- [数据结构与算法 - 二分](https://laishuxin.github.io/blog_cs/cate/data-structure-and-algorithm/1_1-binary/)
+
+习题：
+
+- [ ] : [69. Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/)
+- [ ] : [35. Search Insert Position](https://leetcode-cn.com/problems/search-insert-position)
+- [ ] : [34. Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [ ] : [74. Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)
+- [ ] : [153. Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- [ ] : [33. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+- [ ] : [278. First Bad Version](https://leetcode-cn.com/problems/first-bad-version)
+- [ ] : [162. Find Peak Element](https://leetcode-cn.com/problems/find-peak-element)
+- [ ] : [287. Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number)
+- [ ] : [275. H-Index II](https://leetcode-cn.com/problems/h-index-ii)
+
 #### 剑指 offer
 
 ##### 链表
