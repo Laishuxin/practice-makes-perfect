@@ -19,6 +19,7 @@
     "import/no-dynamic-require": "off",
     "global-require": "off",
     "require-yield": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "eol-last": 0
   }
 }
