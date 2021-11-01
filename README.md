@@ -43,13 +43,13 @@ describe.only()
 - [x] : 手写 `call` 函数
 - [x] : 手写 `apply` 函数
 - [x] : 手写 `bind` 函数
-- [ ] : 手写节流函数
-  - [ ] : 手写节流函数含 leading 和 trailing
-- [ ] : 手写防抖函数
-  - [ ] : 使用时间戳
-  - [ ] : 使用定时器
-  - [ ] : 使用时间戳 + 定时器
-  - [ ] : 手写防抖数含 leading 和 trailing
+- [x] : 手写节流函数
+  - [x] : 手写节流函数含 leading 和 trailing
+- [x] : 手写防抖函数
+  - [x] : 使用时间戳
+  - [x] : 使用定时器
+  - [x] : 使用时间戳 + 定时器
+  - [x] : 手写防抖数含 leading 和 trailing
 - [x] : 手写类型判断函数
 - [x] : 实现浅拷贝
 - [x] : 实现深拷贝
@@ -145,7 +145,7 @@ describe.only()
 
 - [Vue - util](https://github.com/vuejs/vue/blob/dev/src/shared/util.js)
 
-### 小型 (mini) 框架
+## 小型 (mini) 框架
 
 - [ ] : 实现一个前端路由
 - [ ] : 实现一个 `Babel`
@@ -160,8 +160,16 @@ describe.only()
 - [ ] : (option - react) 实现一个 `React Router`
 - [ ] : 实现一个 diff 算法
 
-- [学习源码整体架构系列](https://juejin.cn/column/6960551178908205093)
+### webpack
 
+- [手写 webpack - 天天造轮子](https://www.bilibili.com/video/BV1dV411p7gp?p=1)
+- [做了一夜动画，让大家十分钟搞懂 Webpack](https://juejin.cn/post/6961961165656326152)
+- [webpack 打包原理 ? 看完这篇你就懂了 !](https://juejin.cn/post/6844904038543130637#heading-11)
+- [深入浅出 Webpack](https://webpack.wuhaolin.cn/w)
+
+### 其他
+
+- [学习源码整体架构系列](https://juejin.cn/column/6960551178908205093)
 - [珠峰全栈架构课](https://space.bilibili.com/9418199/channel/detail?cid=86585)
 
 ## 数据结构与算法
