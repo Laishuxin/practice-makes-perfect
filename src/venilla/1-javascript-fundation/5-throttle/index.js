@@ -36,16 +36,3 @@ export function throttle(fn, options = {}) {
   }
   return throttleFn
 }
-
-function main() {
-  function fn() {
-    console.log('fn....')
-  }
-  const throttledFn = throttle(fn, {
-    leading: true,
-    trailing: true,
-    wait: 5000,
-  })
-  throttledFn()
-}
-main()
