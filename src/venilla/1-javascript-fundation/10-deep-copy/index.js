@@ -1,3 +1,7 @@
+function isObject(obj) {
+  return (typeof obj === 'object' && obj !== null) || typeof obj === 'function'
+}
+
 /**
  * 深度优先，递归实现
  * @param {*} obj

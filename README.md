@@ -37,26 +37,26 @@ describe.only()
 
 ### JavaScript 基础
 
-- [ ] : 手写 `Object.create`。
-- [ ] : 手写 `instanceof` 方法
-- [ ] : 手写 `new` 操作符
-- [ ] : 手写 `call` 函数
-- [ ] : 手写 `apply` 函数
+- [x] : 手写 `Object.create`。
+- [x] : 手写 `instanceof` 方法
+- [x] : 手写 `new` 操作符
+- [x] : 手写 `call` 函数
+- [x] : 手写 `apply` 函数
 - [ ] : 手写 `bind` 函数
-- [ ] : 手写节流函数
-  - [ ] : 手写节流函数含 leading 和 trailing
-- [ ] : 手写防抖函数
-  - [ ] : 使用时间戳
-  - [ ] : 使用定时器
-  - [ ] : 使用时间戳 + 定时器
-  - [ ] : 手写防抖数含 leading 和 trailing
-- [ ] : 手写类型判断函数
-- [ ] : 实现浅拷贝
-- [ ] : 实现深拷贝
-  - [ ] : 实现深拷贝 - 深度优先
-  - [ ] : 实现深拷贝 - 广度优先
-- [ ] : (option - react) 实现浅比较(`shallowEqual`)。
-- [ ] : (option - vue) 实现深比较(`looseEqual`)
+- [x] : 手写节流函数
+  - [x] : 手写节流函数含 leading 和 trailing
+- [x] : 手写防抖函数
+  - [x] : 使用时间戳
+  - [x] : 使用定时器
+  - [x] : 使用时间戳 + 定时器
+  - [x] : 手写防抖数含 leading 和 trailing
+- [x] : 手写类型判断函数
+- [x] : 实现浅拷贝
+- [x] : 实现深拷贝
+  - [x] : 实现深拷贝 - 深度优先
+  - [x] : 实现深拷贝 - 广度优先
+- [x] : (option - react) 实现浅比较(`shallowEqual`)。
+- [x] : (option - vue) 实现深比较(`looseEqual`)
 
 可以参考的资料：
 
@@ -68,7 +68,6 @@ describe.only()
 ### 数据处理
 
 - [ ] : 实现日期格式化函数
-- [ ] : 交换 a, b 的值，不能使用临时变量
 - [ ] : 实现数组的乱序输出 (`shuffle`)
 - [ ] : 实现数组扁平化 (`flatten`)
 - [ ] : 实现 `Array.flatten`
@@ -76,12 +75,13 @@ describe.only()
 - [ ] : 实现 `Array.filter`
 - [ ] : 实现 `Array.repeat`
 - [ ] : 实现 `Array.reverse`
-- [ ] : 实现 `Array.reduce`
-- [ ] : 实现 `Array.reduceRight`
+- [x] : 实现 `Array.reduce`
+- [x] : 实现 `Array.reduceRight`
 - [ ] : 数组去重（多种方式，并说明优缺点）
 - [ ] : 将数字每千分位用逗号隔开
 - [ ] : 实现 `add(1)(2)(3)`
 - [ ] : 将 URL Params 解析为对象
+- [ ] : 实现 `Array.forEach`
 
 可以参考的资料：
 
