@@ -28,3 +28,4 @@ yarn-error.log*
 __demo__
 __docs
 scripts/_*
+interview/*

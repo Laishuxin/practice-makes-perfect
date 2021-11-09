@@ -69,19 +69,18 @@ describe.only()
 
 - [ ] : 实现日期格式化函数
 - [ ] : 实现数组的乱序输出 (`shuffle`)
-- [ ] : 实现数组扁平化 (`flatten`)
-- [ ] : 实现 `Array.flatten`
-- [ ] : 实现 `Array.map`
-- [ ] : 实现 `Array.filter`
-- [ ] : 实现 `Array.repeat`
-- [ ] : 实现 `Array.reverse`
+- [ ] : 实现 `Array.flat`
+- [x] : 实现 `Array.map`
+- [x] : 实现 `Array.filter`
+- [x] : 实现 `Array.forEach`
+- [x] : 实现 `Array.reverse`
 - [x] : 实现 `Array.reduce`
 - [x] : 实现 `Array.reduceRight`
+- [x] : 实现 `Array.sort`
 - [ ] : 数组去重（多种方式，并说明优缺点）
 - [ ] : 将数字每千分位用逗号隔开
 - [ ] : 实现 `add(1)(2)(3)`
 - [ ] : 将 URL Params 解析为对象
-- [ ] : 实现 `Array.forEach`
 
 可以参考的资料：
 

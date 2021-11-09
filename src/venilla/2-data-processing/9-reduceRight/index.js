@@ -1,9 +1,9 @@
 export function reduceRight(arr, func, initialValue) {
   if (!Array.isArray(arr)) {
-    throw new TypeError('expect to receive an array but receive ', arr)
+    throw new TypeError(`${arr} is not an array`)
   }
   if (typeof func !== 'function') {
-    throw new TypeError('expect to receive function but receive ', func)
+    throw new TypeError(`${func} is not a function`)
   }
 
   const len = arr.length
