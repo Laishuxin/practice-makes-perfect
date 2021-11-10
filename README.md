@@ -1,5 +1,7 @@
 # practice-makes-perfect
 
+一步步从小工到行家。
+
 ## 写在前面
 
 ### 文件规范
@@ -67,9 +69,10 @@ describe.only()
 
 ### 数据处理
 
-- [ ] : 实现日期格式化函数
-- [ ] : 实现数组的乱序输出 (`shuffle`)
-- [ ] : 实现 `Array.flat`
+- [x] : 实现日期格式化函数
+      `javascript dateFormat(new Date('2020-12-01'), 'yyyy/MM/dd') // 2020/12/01 dateFormat(new Date('2020-04-01'), 'yyyy/MM/dd') // 2020/04/01 dateFormat(new Date('2020-04-01'), 'yyyy 年 MM 月 dd 日') // 2020 年 04 月 01 日 dateFormat('2020-04-01', 'yyyy 年 MM 月 dd 日') // 2020 年 04 月 01 日`
+- [x] : 实现数组的乱序输出 (`shuffle`)
+- [x] : 实现 `Array.flat`
 - [x] : 实现 `Array.map`
 - [x] : 实现 `Array.filter`
 - [x] : 实现 `Array.forEach`
@@ -77,14 +80,28 @@ describe.only()
 - [x] : 实现 `Array.reduce`
 - [x] : 实现 `Array.reduceRight`
 - [x] : 实现 `Array.sort`
-- [ ] : 数组去重（多种方式，并说明优缺点）
-- [ ] : 将数字每千分位用逗号隔开
-- [ ] : 实现 `add(1)(2)(3)`
-- [ ] : 将 URL Params 解析为对象
+- [x] : 数组去重（多种方式，并说明优缺点）
+- [x] : 将数字每千位用逗号隔开
+- [x] : 实现 `add(1)(2)(3)`
+- [x] : 将 URL Params 解析为对象
+
+  ```javascript
+  let url =
+    'http://www.domain.com/?user=anonymous&id=123&id=456&city=%E5%8C%97%E4%BA%AC&enabled'
+  parseParam(url)
+  /* 结果
+  { user: 'anonymous',
+  id: [ 123, 456 ], // 重复出现的 key 要组装成数组，能被转成数字的就转成数字类型
+  city: '北京', // 中文需解码
+  enabled: true, // 未指定值得 key 约定为 true
+  }
+  */
+  ```
 
 可以参考的资料：
 
 - [「2021」高频前端面试题汇总之手写代码篇](https://juejin.cn/post/6946136940164939813)
+- [Shuffle an array](https://javascript.info/task/shuffle)
 
 ### Promise
 
